@@ -1,8 +1,13 @@
 body {
-    background-color: blue
-    color(xyx green blue)
+    background-color: blue;  /* cor de fundo */
+    color: white; /* cor da letra  */
+    margim: 0px; /* espaço antes da borda */
 }
 
+head {
+    border-bottom: solid  2px white;  /*borda */
+    padding: 20px;    /* espaçamento depois da borda e antes do conteúdo*/
+}
 h1 {
     font: size 35px;
 }
