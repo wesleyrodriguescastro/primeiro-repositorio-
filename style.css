@@ -4,13 +4,24 @@ body {
     margim: 0px; /* espaço antes da borda */
 }
 
-head {
+header {
     border-bottom: solid  2px white;  /*borda */
     padding: 20px;    /* espaçamento depois da borda e antes do conteúdo*/
+
+section {
+    background-color: #9208ed;
+    padding: bottom 80px; 
+    padding-top: 80px;
+    display: flex; 
+    justify-content: center;
 }
+ 
+   chamada-texto{
 h1 {
     font: size 35px;
 }
+
+
 
 p {
     color: blue;
