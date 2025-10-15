@@ -2,13 +2,14 @@ body {
     background-color: blue;  /* cor de fundo */
     color: white; /* cor da letra  */
     margim: 0px; /* espaço antes da borda */
+    font-
 }
 
 header {
     border-bottom: solid  2px white;  /*borda */
     padding: 20px;    /* espaçamento depois da borda e antes do conteúdo*/
 
-section {
+.chamada {
     background-color: #9208ed;
     padding: bottom 80px; 
     padding-top: 80px;
@@ -27,3 +28,18 @@ p {
     color: blue;
     font-size: 16px;
 }
+
+  img {
+    height: 200px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow : auto;
+    gap: 10px;
+  }
+
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }  
