@@ -1,45 +1,60 @@
 body {
-    background-color: blue;  /* cor de fundo */
-    color: white; /* cor da letra  */
-    margim: 0px; /* espaço antes da borda */
-    font-
+     background-color: rgb(235, 14, 128);
+     color: black;
+     margin: 0px;
 }
 
 header {
-    border-bottom: solid  2px white;  /*borda */
-    padding: 20px;    /* espaçamento depois da borda e antes do conteúdo*/
-
-.chamada {
-    background-color: #9208ed;
-    padding: bottom 80px; 
-    padding-top: 80px;
-    display: flex; 
-    justify-content: center;
+  border-bottom: solid 2px black;
+  padding: 20px;
+  font-size: 32px;
+  color: black;
 }
- 
-   chamada-texto{
+
+  .chamada {
+   background-color: #48e310;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada{
+  margin-right: 5%;
+}
 h1 {
-    font: size 35px;
+    font-size: 30px;
 }
-
-
 
 p {
-    color: blue;
+    color: azure;
     font-size: 16px;
 }
 
-  img {
-    height: 200px;
-  }
+img {
+  height: 200;
+}
 
-  .categoria-videos {
-    display: flex;
-    overflow : auto;
-    gap: 10px;
-  }
+.categoria-videos {
+  display:flex;
+  overflow: auto;
+  gap: 10px;
+}
 
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }  
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria-videos img {
+  opacity: 0,5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px solid rgb(17, 167, 247);
+}
+
+
+
